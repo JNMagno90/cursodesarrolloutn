@@ -1,0 +1,39 @@
+h1 { color: magenta;/*comentario en css*/
+ font-family: arial; 
+background-color: grey; 
+text-align: center; 
+font-size: 35px; }
+a{text-transform: uppercase;
+color: red;
+background-color: wheat;}
+.primeraintervencion { color:green;
+    font: bolder;
+    text-transform: lowercase;
+}
+h2 { color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:grey ;
+text-align: center;
+text-transform: uppercase;
+}
+body{
+  background-color: gray;
+}
+h2{
+    color: black;
+}
+p{
+    color: black;
+    background-color:wheat;
+    line-height: 35px;
+}
+ul{
+    background-color: wheat;
+}
+span{ color: chocolate;}
+#pagina2{ border: 5px;
+color: black;
+background-color: coral;}
+#segundaintervencion{border: 5px;
+    color: black;
+    background-color: green;}
