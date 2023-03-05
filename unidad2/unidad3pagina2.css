@@ -1,4 +1,4 @@
-h1{ color: cadetblue;
+h1{ color: cadetblue; text-shadow: 76px 4px 2px black ;
 
 }
 body{
@@ -6,3 +6,20 @@ body{
   background-repeat:no-repeat; 
 background-size: cover; 
 }
+#agradecimiento{ 
+
+ text-transform: uppercase; 
+  border: 5px solid; color: black;
+border-radius: 1%; 
+box-sizing: content-box;width: 1%;
+box-sizing: border-box;width: 100%;border: solid gray 10px;padding: 5px;
+padding: auto;
+
+}
+div {color: crimson;}
+textarea{
+border: red; background-color: grey; border-style: dashed; border-radius: 20px;
+}
+input{ border-style: double; border-color: red;}
+div{ display: flex;
+  align-items: center; }

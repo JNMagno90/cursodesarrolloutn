@@ -14,7 +14,7 @@
 <body>
     <h1>Gracias por su visita</h1>
     <audio src="pantheon1.mp3" controls></audio>
-    <p> Estimado lector agradecemos su tiempo. <br> 
+    <p id="agradecimiento"> Estimado lector agradecemos su tiempo. <br> 
         nos tomamos este espacio para probar diversas etiquetas como por ejemplo <br>
     la que completa las lineas, textarea, etc.</p>
 
@@ -25,17 +25,17 @@
     <input type="text" name="nombre" value=" tu nombre"> 
      apellido<input type="text" name="apellido">
     email<input type="email" name="correo electronico" value=""></div>
-   <div>DNI<input type="number" name="numeros"></div>
-   <div>fecha de nacimiento<input type="date" name="fecha"></div>
+   <div class="completar">DNI<input type="number" name="numeros"></div>
+   <div class="completar">fecha de nacimiento<input type="date" name="fecha"></div>
     <input type="time" name="hora" >
     <input type="range" min="1" max="10" name="rango" >
-   <div>comentarios</div>
-   <div><textarea name="comentarios" id="" cols="30" rows="10"></textarea></div>
+    <div>comentarios</div>
+   <div id="comentarios"><textarea name="comentarios" id="" cols="30" rows="10"></textarea></div>
     <div>términos y condiciones<input type="checkbox" name="" id=""></div>
     <div><input type="submit"  value="enviar"></div>
 </form>
 
-     <p><a href="holamundo.html"><button>página1</button></a></p>
+     <a href="holamundo.html"><button>página1</button></a>
 
 </body>
 </html>
