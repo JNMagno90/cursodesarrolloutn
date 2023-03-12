@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>tarea ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+        const numero = parseInt(prompt('cantidad de metros:', ''));
+
+        if (numero <= 1000) {
+            document.write(`te recomiendo viajar a pie`);
+        } else if (numero <= 10000) {
+            document.write(`te recomiendo usar una bicicleta`);
+        } else if (numero <= 30000) {
+            document.write(`te recomiendo usar un colectivo`);
+        } else if (numero <= 100000) {
+            document.write(`te recomiendo viajar en auto`);
+        } else if (numero >= 100000) {
+            document.write(`llego el momento de usar un avión`)
+        }
+    </script>
+</body>
